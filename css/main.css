@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap');
+@import url(./style.css);
+body{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.main-header .row{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    padding-top:43px;
+    padding-bottom:43px;
+}
+.main-header{
+    padding:40px 0;
+}
+
+
+ .bg-img{
+    background-image: url(../img/Bitmap.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+   
+}
+.inner-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.great{
+    font-family: Fraunces 9pt;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    width: 493px;
+    color:white;
+    padding-bottom:32px;
+    padding-top:117px;
+
+
+}
+.main-link{
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9px;
+    margin-left:16px;
+    margin-right:16px;
+    text-align: center;
+    text-decoration: none;
+    color: #83888F;
+
+
+}
+.start{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FEFCF7;
+    width: 445px;
+    padding-bottom:56px;
+
+}
+.btn{
+    background-color: #66D2CF;
+    color:white;
+
+}
+.espresso{
+    background-image: url(../img/Group\ 13.png);
+    background-repeat: no-repeat;
+    padding-top:262px;
+    padding-bottom:200px ;
+    background-position-x: center;
+    background-position-y: 134px;
+    text-align: center;
+}
+.coffee-title{
+    
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    color: #333D4B;
+   
+    
+   
+     
+}
+.coffee-text{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333D4B;
+
+    
+    
+    
+}
+.coffee-item{
+    border:0;
+    
+}
+.cofe-photo{
+    height: 193px;
+    width: 255px;
+ 
+
+}
+.cofe-photo1{
+    height: 177px;
+    width: 230px;
+  
+}
+/*  section 3 */
+.why-choose{
+    position: relative;
+}
+ .section-black:before{
+    content:"";
+    position:absolute;
+    top:0;
+    right:0;
+    width: 100%;
+    height: 658px;
+    background-color:  #2C343E;
+    border-radius: 10px;
+    z-index: -2;
+    
+}
+.quality{
+    background-color: #0E8784;
+    margin-top: 100px;
+    text-align: center;
+}
+.why-title{
+    
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px;
+padding-top:32px;
+color:white;
+text-align: center;
+padding-top:110px;
+
+}
+.why-text{
+    
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color: #FEFCF7;
+width: 540px;
+font-family: 'Barlow', sans-serif;
+margin:0 auto;
+padding-bottom:86px;
+
+}
+.quality{
+    padding:72px 48px 48px 48px;
+    border-radius:10px;
+    margin-bottom:200px;
+}
+.why-photo{
+    margin-bottom:56px;
+}
+.choose-title{
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+
+}
+.choose-text{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+
+}
+/* section4 */
+
+.small-title{
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    color: #83888F;
+    padding-bottom:80px;
+}
+.number{
+    
+   font-size: 72px;
+   font-weight: 900;
+   line-height: 72px;
+   text-align: left;
+   color:#FDD6BA;
+   margin-bottom:38px;
+
+
+}
+.pick{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #333D4B;
+    width: 255px;
+    padding-bottom:42px;
+}
+.pick-text{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333D4B;
+    width: 285px;
+    padding-bottom:64px;
+
+}
+.cercle{
+    height: 31px;
+    width: 31px;
+    background: #FEFCF7;
+    display: inline-block;
+    border:2px solid #0E8784;
+    border-radius:50%;
+    margin-bottom:67px;
+
+}
+.how-work .row{
+    position: relative;
+}
+.line::before{
+    content: "";
+    height: 1px;
+    width: 397px;
+    background-color:#FDD6BA ;
+    display: inline-block;
+    position: absolute;
+    top:15px;
+    z-index: -1;
+
+
+}
+.main-footer{
+    margin-top:200px;
+    padding:48px 0;
+    background-color: #2C343E;
+
+}
+.footer-icon{
+    color:white;
+    margin-right:24px;
+    text-decoration: none;
+}
+
+
+/*  About us */
+.about{
+    background-image: url(../img/Group\ 7.png);
+    background-repeat: no-repeat;
+    padding:137px 0 137px 0;
+ 
+}
+.aboutus{
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    color:#FEFCF7;
+    padding-bottom:24px;
+
+}
+.commit-title{
+    color: #333D4B;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    padding-bottom:32px;
+    padding-top:90px;
+
+
+}
+.commit-text{
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: 'Barlow', sans-serif;
+    width: 540px;
+
+
+}
+.mission{
+    padding-top:31px;
+    padding-bottom:244px;
+}
+
+/* section3 */
+.uncompro{
+    background-color: #333D4B;
+    border-radius:10px;
+    padding-top:100px;
+    padding-bottom:100px;
+    position: relative;
+}
+.uncompro-title{
+   color:#FEFCF7;
+   font-size: 40px;
+   font-weight: 900;
+   line-height: 48px;
+   padding-bottom:32px;
+}
+.uncompro-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Barlow', sans-serif;
+    width: 540px;
+    color:#FEFCF7;
+
+}
+
+.cup-cofe{
+    position: absolute;
+    bottom:63px;
+    width: 445px;
+    border-radius:8px;
+    right:91px;
+}
+.uncompro{
+    margin-bottom:168px;
+}
+
+/* section4 */
+.map{
+    margin-bottom:46px;
+
+}
+.adress{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    color: #333D4B;
+    width: 285px;
+
+
+
+}
