@@ -1,0 +1,59 @@
+@media(max-width:1199px){
+  .inner-container{
+      max-width: 900px;
+      
+  }
+  .bg-img{
+      background-size: cover;
+  }
+  .choose-title{
+      width: 225px;
+      font-size: 22px;
+  }
+  .line::before{
+      width: 328px;
+  }
+  .commit-text{
+      width: 459px;
+      
+  }
+  .cup-cofe{
+      right: 75px;
+      bottom: 170px;
+      width: 388px;
+
+  }
+  .uncompro-text{
+      width: 443px;
+
+  }
+  .make-cofe{
+      width: 390px;
+  }
+  .commit-title{
+      padding-top:31px;
+  }
+}
+@media(max-width:991px){
+    .inner-container{
+        max-width: 700px;
+    }
+    .espresso{
+        background-size: contain;
+        padding-top:206px;
+    }
+    .coffee-item{
+        width: 282px;
+    }
+    
+
+}
+@media(max-width:767px){
+
+}
+@media(max-width:565px){
+
+}
+@media(max-width:480px){
+
+}
