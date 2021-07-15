@@ -72,8 +72,14 @@ body{
 
 }
 .btn{
+    background-color:#0E8784;
+    color: #FEFCF7;
+    
+
+}
+.btn:hover{
     background-color: #66D2CF;
-    color:white;
+    color: #FEFCF7;
 
 }
 .espresso{
@@ -265,6 +271,8 @@ padding-bottom:86px;
 
 
 }
+
+/* footer */
 .main-footer{
     margin-top:200px;
     padding:48px 0;
@@ -272,11 +280,21 @@ padding-bottom:86px;
 
 }
 .footer-icon{
-    color:white;
+    color: #FEFCF7;
     margin-right:24px;
     text-decoration: none;
 }
+.footer-icon:hover{
+    color: #FDD6BA;
 
+}
+.main-link:hover{
+    color: #FEFCF7;
+
+}
+.main-hover:hover{
+    color:black;
+}
 
 /*  About us */
 .about{
@@ -320,6 +338,9 @@ padding-bottom:86px;
     padding-top:31px;
     padding-bottom:244px;
 }
+.make-cofe{
+    border-radius:8px;
+}
 
 /* section3 */
 .uncompro{
@@ -362,7 +383,7 @@ padding-bottom:86px;
     margin-bottom:46px;
 
 }
-.adress{
+.adress a{
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -371,6 +392,188 @@ padding-bottom:86px;
     color: #333D4B;
     width: 285px;
 
+}
 
 
+
+/* creatplan  */
+
+
+.creat-img{
+    background-image: url(../img/creat\ aplanbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:127px 0 127px 0;
+    margin-bottom:120px;
+    border-radius:10px;
+  
+}
+.great2{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    color:#FEFCF7;
+
+}
+.start2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 445px;
+    color: #FEFCF7;
+
+
+
+}
+
+/* section3 */
+.creat-work{
+    background-color:#2C343E;
+    padding:100px 0 100px 0;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.shape{
+    color: #FEFCF7;
+
+}
+.creat-work .row{
+    position: relative;
+}
+.span-shape{
+    background: transparent;
+}
+.way::before{
+    content: "";
+    z-index: 0;
+}
+
+/* section4 */
+.accor-title{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #333D4B;
+    width: 175px;
+}
+.accor-text{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+
+}
+.how-header{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #83888F;
+    margin-bottom:60px;
+    
+}
+.how-header:not(.collapsed){
+    color: #83888F;
+    background-color: white;
+    
+}
+.how-header:focus{
+    border:none;
+    box-shadow:none;
+    border-color:none;
+   
+}
+.accor-bg{
+    background-color: #F4F1EB;
+    padding:32px 28px 84px 28px;
+    border:8px;
+    width: 228px;
+    
+}
+.accor-item{
+    border:none;
+}
+.how-drink{
+    padding-top:168px;
+}
+/* button:not(.collapsed)::after{
+    display: none;
+} */
+
+   
+
+.accordion-button::after{
+     background-image: url(../img/Path\ 2.svg);
+    background-repeat: no-repeat;
+
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../img/Path\ 2.svg);
+    background-repeat: no-repeat;
+
+}
+
+.accor-bg:hover{
+    background: #FDD6BA;
+
+}
+.accor-bg:active{
+    background-color:  #0E8784;
+    color:white;
+    
+}
+.accor-bg:active .accor-title{
+    color:white;
+}
+.numeral{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color:#83888F;
+    padding-right:29px;
+  
+    
+
+}
+.bean{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #333D4B;
+    border-bottom:2px solid  #83888F;
+    padding:24px 0 24px 0;
+    list-style: none;
+    width: 255px;
+}
+.bean-list{
+    margin-right:125px;
+}
+.summary{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    color:white;
+    background-color: #2C343E;
+    padding:27px 64px 27px 64px;
+    border-radius: 10px;
+    margin-top:84px;
+    
+}
+.dark{
+    color: #0E8784;
+
+}
+.summary-quote{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.5;
+}
+.quote-btn{
+    text-align: right;
+    margin-top: 40px;
+   
 }
